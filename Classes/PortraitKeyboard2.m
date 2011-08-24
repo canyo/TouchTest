@@ -172,12 +172,18 @@
 {
     NSString *inOp =label.text;
     NSLog(@"%@ blabla",inOp);
-    NSArray *contents=[inOp componentsSeparatedByString:@","];
+    //NSArray *contents=[inOp componentsSeparatedByString:@","];
+    NSMutableArray *contents=[[NSMutableArray alloc] initWithCapacity:[inOp length]];
+    for (int i=0; i < [inOp length]; i++) 
+    {
+        NSString *ichar  = [NSString stringWithFormat:@"%c", [inOp characterAtIndex:i]];
+        [contents addObject:ichar];
+    }
     NSLog(@"%i sad",wordNo);
     NSString *curentText=tField.text;
     NSString *title = [contents objectAtIndex:charNo];
     curentText=[curentText stringByAppendingString:title];
-    curentText=[curentText stringByAppendingString:@","];
+    //curentText=[curentText stringByAppendingString:@","];
     [tField setText:curentText];
     if ([self checkInput:tField.text]) {
         //[label setText:@"You changed me"];
@@ -210,7 +216,7 @@
         z=(arc4random()%27)+1;
         rez=[NSString stringWithFormat:@"%i",z];
         wordS=[wordS stringByAppendingString:rez];
-        wordS=[wordS stringByAppendingString:@","];
+        //wordS=[wordS stringByAppendingString:@","];
     }
     //for (int q=1;q<=j;q++)
     //{
@@ -233,14 +239,14 @@
     int i=wordNo;
     word = [[NSString alloc] init];
     NSArray *myArray=[[NSArray alloc] init];
-    myArray = [NSArray arrayWithObjects:@"9,2,22,25,",@"1,5,11,20,2,17,",@"24,27,6,19,8,3,21,16,",@"10,19,25,20,5,23,17,26,",@"12,15,25,7,",@"17,26,6,2,",@"19,3,2,10,5,23,11,17,26,",@"15,4,23,5,",@"8,20,3,",@"18,11,13,7,",@"10,14,20,2,11,26,",@"24,13,",@"7,18,15,10,25,2,",@"27,24,2,16,11,5,25,",nil];
+    myArray = [NSArray arrayWithObjects:@"agerwr",@"gksdjf",@"eksjdak",@"aksfalsfhs",@"achojshfoer",@"mcnvnqoeti",@"ngwj",@"sdewq",@"kgjflskj",@"sdkadksad",@"dsada",@"dad",@"deklte",@"gqsynham",@"dasdq",@"thbne",@"bqwepz",@"mqutz",nil];
     word=[myArray objectAtIndex:i];
     label.text=word;
     [self recOutput:word];
     NSLog(@"%@",word);
     return word;
 }
-//@"agerwr",@"gksdjf",@"eksjdak",@"aksfalsfhs",@"achojshfoer",@"mcnvnqoeti",@"ngwj",@"sdewq",@"kgjflskj",@"sdkadksad",@"dsada",@"dad",@"detete",@"sdsdqwe",@"dasdq",@"sdqweqe",@"dqwe",@"sdqwe",nil
+//
 
 -(IBAction) showAlert
 {

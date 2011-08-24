@@ -199,7 +199,13 @@
 {
     NSString *inOp =label.text;
     NSLog(@"%@ blabla",inOp);
-    NSArray *contents=[inOp componentsSeparatedByString:@","];
+    //NSArray *contents=[inOp componentsSeparatedByString:@","];
+    NSMutableArray *contents=[[NSMutableArray alloc] initWithCapacity:[inOp length]];
+    for (int i=0; i < [inOp length]; i++) 
+    {
+        NSString *ichar  = [NSString stringWithFormat:@"%c", [inOp characterAtIndex:i]];
+        [contents addObject:ichar];
+    }
     NSLog(@"%i sad",wordNo);
     NSString *curentText=tField.text;
     NSString *title = [contents objectAtIndex:charNo];
