@@ -1,0 +1,355 @@
+TTouchTest
+v7
+r0
+t320183984.192668
+cCheck dependencies
+cProcessInfoPlistFile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/Info.plist TouchTest-Info.plist
+cCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/MainWindow.xib
+cCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTestViewController.xib
+cCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.xib
+cCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.xib
+cProcessPCH /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch.gch TouchTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/main.o /Users/alexandrupopa/Documents/Thesis/TouchTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestAppDelegate.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestViewController.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TypeTestView.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/PanningTest.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest normal i386
+cGenerateDSYMFile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app.dSYM /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest
+cTouch /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.h
+c000000004D6524A700000000000000DE
+t1298474151
+s222
+i<UIKit/UIKit.h>
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m
+c000000004D6524A70000000000000516
+t1298474151
+s1302
+i"PanningTest.h"
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.xib
+c000000004D6560F10000000000004446
+t1298489585
+s17478
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.h
+c000000004D65102C00000000000001ED
+t1298468908
+s493
+i<UIKit/UIKit.h>
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m
+c000000004D65102C00000000000007C0
+t1298468908
+s1984
+i"TouchTestAppDelegate.h"
+i"TouchTestViewController.h"
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.h
+c000000004D65168E000000000000010D
+t1298470542
+s269
+i<UIKit/UIKit.h>
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m
+c000000004D651591000000000000061D
+t1298470289
+s1565
+i"TouchTestViewController.h"
+i"TypeTestView.h"
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.h
+c000000004D65618F0000000000000275
+t1298489743
+s629
+i<UIKit/UIKit.h>
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m
+c000000004D65672F0000000000000936
+t1298491183
+s2358
+i"TypeTestView.h"
+i"TouchTestViewController.h"
+i"PanningTest.h"
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.xib
+c000000004D6566E8000000000000874E
+t1298491112
+s34638
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/MainWindow.xib
+c000000004D65102C0000000000004D1D
+t1298468908
+s19741
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTestViewController.xib
+c000000004D65170600000000000054A0
+t1298470662
+s21664
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTest_Prefix.pch
+c000000004D65102C00000000000000BB
+t1298468908
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app
+t1298491184
+s306
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app.dSYM
+t1298491184
+s102
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/Info.plist
+t1298469589
+s806
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/MainWindow.nib
+t1298469592
+s1127
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/PanningTest.nib
+t1298489700
+s1316
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/PkgInfo
+t1298469589
+s8
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest
+t1298491184
+s25032
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTestViewController.nib
+t1298470671
+s1654
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TypeTestView.nib
+t1298491119
+s2994
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/PanningTest.o
+t1298474335
+s38012
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTest.LinkFileList
+c000000004D65255D00000000000002D5
+t1298474333
+s725
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestAppDelegate.o
+t1298470542
+s50212
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestViewController.o
+t1298489743
+s39748
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TypeTestView.o
+t1298491184
+s46624
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/main.o
+t1298469596
+s6320
+
+N/Users/alexandrupopa/Documents/Thesis/TouchTest/main.m
+c000000004D65102C000000000000016D
+t1298468908
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch.gch
+t1298469595
+s15453392
+
+NTouchTest-Info.plist
+c000000004D65102C00000000000004D6
+t1298468908
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320183983#320183983#0(0"0(0#1#0"8612161088#0"0#
+
+CCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/PanningTest.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320167135.500628
+e320167135.659057
+r1
+xCompileC
+xbuild/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/PanningTest.o
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m320167135#320167135#0(0"0(0#0#69"/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m8638318912#2075"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-generated-files.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-project-headers.hmap -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/include -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources/i386 -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources -include /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch -c /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.m -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/PanningTest.o0#
+
+CCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestAppDelegate.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320163342.535621
+e320163342.685107
+r1
+xCompileC
+xbuild/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestAppDelegate.o
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m320163342#320163342#0(0"0(0#0#78"/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m8624523008#2093"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-generated-files.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-project-headers.hmap -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/include -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources/i386 -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources -include /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch -c /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestAppDelegate.m -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestAppDelegate.o0#
+
+CCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestViewController.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320182543.130664
+e320182543.268430
+r1
+xCompileC
+xbuild/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestViewController.o
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m320182543#320182543#0(0"0(0#0#81"/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m8605866304#2099"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-generated-files.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-project-headers.hmap -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/include -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources/i386 -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources -include /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch -c /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TouchTestViewController.m -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTestViewController.o0#
+
+CCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TypeTestView.o /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320183983.835925
+e320183984.130249
+r1
+xCompileC
+xbuild/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TypeTestView.o
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m320183983#320183984#0(0"0(0#0#70"/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m8611250624#2077"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-generated-files.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-project-headers.hmap -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/include -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources/i386 -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources -include /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch -c /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.m -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TypeTestView.o0#
+
+CCompileC build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/main.o /Users/alexandrupopa/Documents/Thesis/TouchTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320162396.388073
+e320162396.723767
+r1
+xCompileC
+xbuild/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/main.o
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alexandrupopa/Documents/Thesis/TouchTest/main.m320162396#320162396#0(0"0(0#0#54"/Users/alexandrupopa/Documents/Thesis/TouchTest/main.m8634504800#2053"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-generated-files.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-project-headers.hmap -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/include -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources/i386 -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources -include /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch -c /Users/alexandrupopa/Documents/Thesis/TouchTest/main.m -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.xib
+s320182499.671771
+e320182500.126228
+r1
+xCompileXIB
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.xib
+lSLF07#2@34"CompileXIB Classes/PanningTest.xib320182499#320182500#0(0"0(0#0#71"/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.xib27303553784545392#609"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/PanningTest.nib /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/PanningTest.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.xib
+s320183918.437251
+e320183919.230074
+r1
+xCompileXIB
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.xib
+lSLF07#2@35"CompileXIB Classes/TypeTestView.xib320183918#320183919#0(0"0(0#0#72"/Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.xib8610472992#611"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TypeTestView.nib /Users/alexandrupopa/Documents/Thesis/TouchTest/Classes/TypeTestView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/MainWindow.xib
+s320162389.704105
+e320162392.607884
+r1
+xCompileXIB
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320162389#320162392#0(0"0(0#0#62"/Users/alexandrupopa/Documents/Thesis/TouchTest/MainWindow.xib8634830816#599"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/MainWindow.nib /Users/alexandrupopa/Documents/Thesis/TouchTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTestViewController.xib
+s320163468.763862
+e320163471.901748
+r1
+xCompileXIB
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTestViewController.xib
+lSLF07#2@38"CompileXIB TouchTestViewController.xib320163468#320163471#0(0"0(0#0#75"/Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTestViewController.xib8632098528#625"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTestViewController.nib /Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTestViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app.dSYM /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest
+s320183984.162354
+e320183984.187278
+r1
+xGenerateDSYMFile
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app.dSYM
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TouchTest.app.dSYM build/Debug-iphonesimulator/TouchTest.app/TouchTest320183984#320183984#0(0"0(0#0#99"/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest8611129504#416"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app.dSYM0#
+
+CLd /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest normal i386
+s320183984.130348
+e320183984.162078
+r1
+xLd
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest
+xnormal
+xi386
+lSLF07#2@104"Link /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest320183984#320183984#0(0"0(0#0#0"8611684864#955"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -filelist /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/Objects-normal/i386/TouchTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/TouchTest0#
+
+CProcessInfoPlistFile /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/Info.plist TouchTest-Info.plist
+s320162389.628763
+e320162389.703969
+r1
+xProcessInfoPlistFile
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/Info.plist
+xTouchTest-Info.plist
+lSLF07#2@28"Process TouchTest-Info.plist320162389#320162389#0(0"0(0#0#68"/Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTest-Info.plist27303270317031540#512"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TouchTest-Info.plist -genpkginfo /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app/Info.plist0#
+
+CProcessPCH /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch.gch TouchTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320162393.087804
+e320162396.387816
+r1
+xProcessPCH
+x/var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch.gch
+xTouchTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile TouchTest_Prefix.pch320162393#320162396#0(0"0(0#0#68"/Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTest_Prefix.pch6878249409946608640#1934"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-generated-files.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-own-target-headers.hmap -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-all-target-headers.hmap -iquote /Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/TouchTest-project-headers.hmap -F/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/include -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources/i386 -I/Users/alexandrupopa/Documents/Thesis/TouchTest/build/TouchTest.build/Debug-iphonesimulator/TouchTest.build/DerivedSources -c /Users/alexandrupopa/Documents/Thesis/TouchTest/TouchTest_Prefix.pch -o /var/folders/wK/wKf7f9hIHuGGXTHoYh93Tk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTest_Prefix-amnhfbcdhbramtgjkpqdvbbzvunf/TouchTest_Prefix.pch.gch0#
+
+CTouch /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app
+s320183984.187376
+e320183984.192612
+r1
+xTouch
+x/Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app
+lSLF07#2@95"Touch /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app320183984#320183984#0(0"0(0#0#0"8602722624#298"    cd /Users/alexandrupopa/Documents/Thesis/TouchTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alexandrupopa/Documents/Thesis/TouchTest/build/Debug-iphonesimulator/TouchTest.app0#
+

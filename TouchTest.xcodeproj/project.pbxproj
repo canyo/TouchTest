@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TouchTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TouchTestAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* TouchTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TouchTestViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TouchTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TouchTestViewController.m */; };
+		E22D81BF14053A7000072FF8 /* testLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = E22D81BD14053A7000072FF8 /* testLandscape.m */; };
+		E22D81C014053A7000072FF8 /* testLandscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22D81BE14053A7000072FF8 /* testLandscape.xib */; };
+		E24F8F8A13A8DA5A00DCE780 /* PortraitKeyboard2.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F8F8813A8DA5A00DCE780 /* PortraitKeyboard2.m */; };
+		E24F8F8B13A8DA5A00DCE780 /* PortraitKeyboard2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24F8F8913A8DA5A00DCE780 /* PortraitKeyboard2.xib */; };
+		E2682AA013B2159A008BA15F /* LandscapeKeyboard1.m in Sources */ = {isa = PBXBuildFile; fileRef = E2682A9E13B2159A008BA15F /* LandscapeKeyboard1.m */; };
+		E2682AA113B2159A008BA15F /* LandscapeKeyboard1.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2682A9F13B2159A008BA15F /* LandscapeKeyboard1.xib */; };
+		E290B1C5136827570011C594 /* TrackingPilotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E290B1C0136827550011C594 /* TrackingPilotViewController.m */; };
+		E290B1C6136827570011C594 /* TTTouchRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E290B1C2136827560011C594 /* TTTouchRecorder.m */; };
+		E290B1C7136827570011C594 /* TTTouchCapturingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E290B1C4136827570011C594 /* TTTouchCapturingWindow.m */; };
+		E290B1CA136827C60011C594 /* TTCalloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E290B1C9136827C60011C594 /* TTCalloutViewController.m */; };
+		E290B1DA136829780011C594 /* PanningTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = E290B1D8136829780011C594 /* PanningTest2.m */; };
+		E290B1DB136829780011C594 /* PanningTest2.xib in Resources */ = {isa = PBXBuildFile; fileRef = E290B1D9136829780011C594 /* PanningTest2.xib */; };
+		E2F4DC321315488E00EE3955 /* TypeTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4DC301315488E00EE3955 /* TypeTestView.m */; };
+		E2F4DC331315488E00EE3955 /* TypeTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F4DC311315488E00EE3955 /* TypeTestView.xib */; };
+		E2F4DC8E13155C2700EE3955 /* PanningTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4DC8C13155C2700EE3955 /* PanningTest.m */; };
+		E2F4DC8F13155C2700EE3955 /* PanningTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F4DC8D13155C2700EE3955 /* PanningTest.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		E23210F1136FE50900059F87 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TouchTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTestAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TouchTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchTestAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* TouchTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouchTestViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TouchTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTestViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TouchTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchTestViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TouchTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTest_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TouchTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TouchTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E22D81BC14053A6F00072FF8 /* testLandscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = testLandscape.h; path = ../testLandscape.h; sourceTree = "<group>"; };
+		E22D81BD14053A7000072FF8 /* testLandscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testLandscape.m; path = ../testLandscape.m; sourceTree = "<group>"; };
+		E22D81BE14053A7000072FF8 /* testLandscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = testLandscape.xib; path = ../testLandscape.xib; sourceTree = "<group>"; };
+		E24F8F8713A8DA5A00DCE780 /* PortraitKeyboard2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortraitKeyboard2.h; sourceTree = "<group>"; };
+		E24F8F8813A8DA5A00DCE780 /* PortraitKeyboard2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortraitKeyboard2.m; sourceTree = "<group>"; };
+		E24F8F8913A8DA5A00DCE780 /* PortraitKeyboard2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortraitKeyboard2.xib; sourceTree = "<group>"; };
+		E2682A9D13B2159A008BA15F /* LandscapeKeyboard1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeKeyboard1.h; sourceTree = "<group>"; };
+		E2682A9E13B2159A008BA15F /* LandscapeKeyboard1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeKeyboard1.m; sourceTree = "<group>"; };
+		E2682A9F13B2159A008BA15F /* LandscapeKeyboard1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeKeyboard1.xib; sourceTree = "<group>"; };
+		E290B1BF136827550011C594 /* TrackingPilotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingPilotViewController.h; sourceTree = "<group>"; };
+		E290B1C0136827550011C594 /* TrackingPilotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingPilotViewController.m; sourceTree = "<group>"; };
+		E290B1C1136827550011C594 /* TTTouchRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTouchRecorder.h; sourceTree = "<group>"; };
+		E290B1C2136827560011C594 /* TTTouchRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTouchRecorder.m; sourceTree = "<group>"; };
+		E290B1C3136827560011C594 /* TTTouchCapturingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTouchCapturingWindow.h; sourceTree = "<group>"; };
+		E290B1C4136827570011C594 /* TTTouchCapturingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTouchCapturingWindow.m; sourceTree = "<group>"; };
+		E290B1C8136827C60011C594 /* TTCalloutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCalloutViewController.h; sourceTree = "<group>"; };
+		E290B1C9136827C60011C594 /* TTCalloutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCalloutViewController.m; sourceTree = "<group>"; };
+		E290B1D7136829780011C594 /* PanningTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanningTest2.h; path = ../TouchTest.xcodeproj/PanningTest2.h; sourceTree = "<group>"; };
+		E290B1D8136829780011C594 /* PanningTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanningTest2.m; path = ../TouchTest.xcodeproj/PanningTest2.m; sourceTree = "<group>"; };
+		E290B1D9136829780011C594 /* PanningTest2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PanningTest2.xib; path = ../TouchTest.xcodeproj/PanningTest2.xib; sourceTree = "<group>"; };
+		E2F4DC2F1315488E00EE3955 /* TypeTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTestView.h; sourceTree = "<group>"; };
+		E2F4DC301315488E00EE3955 /* TypeTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTestView.m; sourceTree = "<group>"; };
+		E2F4DC311315488E00EE3955 /* TypeTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeTestView.xib; sourceTree = "<group>"; };
+		E2F4DC8B13155C2700EE3955 /* PanningTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanningTest.h; sourceTree = "<group>"; };
+		E2F4DC8C13155C2700EE3955 /* PanningTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanningTest.m; sourceTree = "<group>"; };
+		E2F4DC8D13155C2700EE3955 /* PanningTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PanningTest.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E22D81BC14053A6F00072FF8 /* testLandscape.h */,
+				E22D81BD14053A7000072FF8 /* testLandscape.m */,
+				E22D81BE14053A7000072FF8 /* testLandscape.xib */,
+				E290B1D7136829780011C594 /* PanningTest2.h */,
+				E290B1D8136829780011C594 /* PanningTest2.m */,
+				E290B1D9136829780011C594 /* PanningTest2.xib */,
+				1D3623240D0F684500981E51 /* TouchTestAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TouchTestAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* TouchTestViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TouchTestViewController.m */,
+				E2F4DC2F1315488E00EE3955 /* TypeTestView.h */,
+				E2F4DC301315488E00EE3955 /* TypeTestView.m */,
+				E2F4DC311315488E00EE3955 /* TypeTestView.xib */,
+				E2F4DC8B13155C2700EE3955 /* PanningTest.h */,
+				E2F4DC8C13155C2700EE3955 /* PanningTest.m */,
+				E2F4DC8D13155C2700EE3955 /* PanningTest.xib */,
+				E290B1BF136827550011C594 /* TrackingPilotViewController.h */,
+				E290B1C8136827C60011C594 /* TTCalloutViewController.h */,
+				E290B1C9136827C60011C594 /* TTCalloutViewController.m */,
+				E290B1C0136827550011C594 /* TrackingPilotViewController.m */,
+				E290B1C1136827550011C594 /* TTTouchRecorder.h */,
+				E290B1C2136827560011C594 /* TTTouchRecorder.m */,
+				E290B1C3136827560011C594 /* TTTouchCapturingWindow.h */,
+				E290B1C4136827570011C594 /* TTTouchCapturingWindow.m */,
+				E24F8F8713A8DA5A00DCE780 /* PortraitKeyboard2.h */,
+				E24F8F8813A8DA5A00DCE780 /* PortraitKeyboard2.m */,
+				E24F8F8913A8DA5A00DCE780 /* PortraitKeyboard2.xib */,
+				E2682A9D13B2159A008BA15F /* LandscapeKeyboard1.h */,
+				E2682A9E13B2159A008BA15F /* LandscapeKeyboard1.m */,
+				E2682A9F13B2159A008BA15F /* LandscapeKeyboard1.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TouchTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TouchTest_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* TouchTestViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TouchTest-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TouchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TouchTest" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+				E23210F1136FE50900059F87 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = TouchTest;
+			productName = TouchTest;
+			productReference = 1D6058910D05DD3D006BFB54 /* TouchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TouchTest" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TouchTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* TouchTestViewController.xib in Resources */,
+				E2F4DC331315488E00EE3955 /* TypeTestView.xib in Resources */,
+				E2F4DC8F13155C2700EE3955 /* PanningTest.xib in Resources */,
+				E290B1DB136829780011C594 /* PanningTest2.xib in Resources */,
+				E24F8F8B13A8DA5A00DCE780 /* PortraitKeyboard2.xib in Resources */,
+				E2682AA113B2159A008BA15F /* LandscapeKeyboard1.xib in Resources */,
+				E22D81C014053A7000072FF8 /* testLandscape.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TouchTestAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TouchTestViewController.m in Sources */,
+				E2F4DC321315488E00EE3955 /* TypeTestView.m in Sources */,
+				E2F4DC8E13155C2700EE3955 /* PanningTest.m in Sources */,
+				E290B1C5136827570011C594 /* TrackingPilotViewController.m in Sources */,
+				E290B1C6136827570011C594 /* TTTouchRecorder.m in Sources */,
+				E290B1C7136827570011C594 /* TTTouchCapturingWindow.m in Sources */,
+				E290B1CA136827C60011C594 /* TTCalloutViewController.m in Sources */,
+				E290B1DA136829780011C594 /* PanningTest2.m in Sources */,
+				E24F8F8A13A8DA5A00DCE780 /* PortraitKeyboard2.m in Sources */,
+				E2682AA013B2159A008BA15F /* LandscapeKeyboard1.m in Sources */,
+				E22D81BF14053A7000072FF8 /* testLandscape.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchTest_Prefix.pch;
+				INFOPLIST_FILE = "TouchTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = TouchTest;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchTest_Prefix.pch;
+				INFOPLIST_FILE = "TouchTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = TouchTest;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

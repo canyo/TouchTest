@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* TouchTestAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1234}";
+			sepNavWindowFrame = "{{494, 96}, {1024, 649}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TouchTest */ = {
+		activeExec = 0;
+		executables = (
+			E2F4DC1D131547AC00EE3955 /* TouchTest */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* TouchTestViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {501, 221}}";
+			sepNavSelRange = "{262, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* TouchTestViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1327, 910}}";
+			sepNavSelRange = "{215, 0}";
+			sepNavVisRange = "{0, 993}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E2F4DC1D131547AC00EE3955 /* TouchTest */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TouchTest */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TouchTest */,
+		);
+		codeSenseManager = E2F4DC28131547B400EE3955 /* Code sense */;
+		executables = (
+			E2F4DC1D131547AC00EE3955 /* TouchTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1160,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320608545;
+			PBXWorkspaceStateSaveDate = 320608545;
+		};
+		perUserProjectItems = {
+			E23C9704131C2A9400086EED /* PBXTextBookmark */ = E23C9704131C2A9400086EED /* PBXTextBookmark */;
+			E2796E3A13159D0900238F79 /* PBXTextBookmark */ = E2796E3A13159D0900238F79 /* PBXTextBookmark */;
+			E2796E4813159EC700238F79 /* PBXTextBookmark */ = E2796E4813159EC700238F79 /* PBXTextBookmark */;
+			E2F4DC7C13155AA000EE3955 /* PBXTextBookmark */ = E2F4DC7C13155AA000EE3955 /* PBXTextBookmark */;
+			E2F4DC9413155D0800EE3955 /* PBXTextBookmark */ = E2F4DC9413155D0800EE3955 /* PBXTextBookmark */;
+			E2F4DC9513155D0800EE3955 /* PBXTextBookmark */ = E2F4DC9513155D0800EE3955 /* PBXTextBookmark */;
+			E2F4DC9613155D0800EE3955 /* PBXTextBookmark */ = E2F4DC9613155D0800EE3955 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E2F4DC27131547B400EE3955 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E23C9704131C2A9400086EED /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F4DC301315488E00EE3955 /* TypeTestView.m */;
+		name = "TypeTestView.m: 70";
+		rLen = 0;
+		rLoc = 1253;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 787;
+	};
+	E2796E3A13159D0900238F79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F4DC2F1315488E00EE3955 /* TypeTestView.h */;
+		name = "TypeTestView.h: 28";
+		rLen = 0;
+		rLoc = 621;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 0;
+	};
+	E2796E4813159EC700238F79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F4DC301315488E00EE3955 /* TypeTestView.m */;
+		name = "TypeTestView.m: 70";
+		rLen = 0;
+		rLoc = 1253;
+		rType = 0;
+		vrLen = 841;
+		vrLoc = 787;
+	};
+	E2F4DC1D131547AC00EE3955 /* TouchTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TouchTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E2F4DC27131547B400EE3955 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E2F4DC28131547B400EE3955 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E2F4DC2F1315488E00EE3955 /* TypeTestView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1338, 505}}";
+			sepNavSelRange = "{621, 0}";
+			sepNavVisRange = "{0, 629}";
+		};
+	};
+	E2F4DC301315488E00EE3955 /* TypeTestView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1338, 1534}}";
+			sepNavSelRange = "{1253, 0}";
+			sepNavVisRange = "{787, 841}";
+			sepNavWindowFrame = "{{257, 140}, {1024, 649}}";
+		};
+	};
+	E2F4DC7C13155AA000EE3955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* TouchTestViewController.m */;
+		name = "TouchTestViewController.m: 10";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 993;
+		vrLoc = 0;
+	};
+	E2F4DC8B13155C2700EE3955 /* PanningTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1338, 511}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 222}";
+		};
+	};
+	E2F4DC9413155D0800EE3955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* TouchTestViewController.h */;
+		name = "TouchTestViewController.h: 14";
+		rLen = 0;
+		rLoc = 262;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	E2F4DC9513155D0800EE3955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TouchTestAppDelegate.m */;
+		name = "TouchTestAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	E2F4DC9613155D0800EE3955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E2F4DC8B13155C2700EE3955 /* PanningTest.h */;
+		name = "PanningTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 222;
+		vrLoc = 0;
+	};
+}
