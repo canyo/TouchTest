@@ -11,7 +11,6 @@
 #import "PanningTest.h"
 #import "TypeTestView.h"
 #import "LandscapeKeyboard1.h"
-#import "TTTouchCapturingWindow.h"
 #import "TTCalloutViewController.h"
 #import "TTTouchRecorder.h"
 #import "testLandscape.h"
@@ -109,6 +108,7 @@
 {
 	LandscapeKeyboard1 *view4 = [[LandscapeKeyboard1 alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view4 animated:NO];
+    [myTimer invalidate];
 	
 }
 
@@ -455,7 +455,7 @@
     
     NSString* str = [formatter stringFromDate:date];
     NSString *fileName2=[[NSString alloc]init];
-    //fileName2=[NSString stringWithFormat:@"%@/portaitTouchTrack%@.txt", documentsDirectory,str];
+    //fileName2=[NSString stringWithFormat:@"%@/landscapeTouchTrack%@.txt", documentsDirectory,str];
 
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory , NSUserDomainMask, YES);

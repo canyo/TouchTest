@@ -408,7 +408,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     NSLog(@"did call shouldAutorotateToInterfaceOrientation");
     // Overriden to allow any orientation.
-    return YES;
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration;
