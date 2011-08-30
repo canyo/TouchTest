@@ -56,7 +56,6 @@ TTTouchCapturingWindow *sharedTouchCapturingWindow;
     //we need to send the message to the super for the
     //text overlay to work (holding touch to show copy/paste)
     [super sendEvent:event];
-	
     //get a touch
     UITouch *touch = [[event allTouches] anyObject];
 	

@@ -9,7 +9,6 @@
 #import "LandscapeKeyboard1.h"
 #import "PortraitKeyboard2.h"
 #import "TouchTestViewController.h"
-#import "PanningTest.h"
 #import "TTTouchCapturingWindow.h"
 #import "TTCalloutViewController.h"
 #import "TTTouchRecorder.h"
@@ -98,12 +97,21 @@
 {
 	PortraitKeyboard2 *view3 = [[PortraitKeyboard2 alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view3 animated:NO];
+    if ([myTimer2 isValid]) 
+    {
+        [myTimer2 invalidate];
+    }
 }
 
 -(IBAction) switchToNext
 {
-	PanningTest *view4 = [[PanningTest alloc] initWithNibName:nil bundle:nil];
+	TouchTestViewController *view4 = [[TouchTestViewController alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view4 animated:NO];
+    if ([myTimer2 isValid]) 
+    {
+        [myTimer2 invalidate];
+    }
+	
 	
 }
 
@@ -210,7 +218,7 @@
     NSString *curentText=tField.text;
     NSString *title = [contents objectAtIndex:charNo];
     curentText=[curentText stringByAppendingString:title];
-    curentText=[curentText stringByAppendingString:@","];
+    //curentText=[curentText stringByAppendingString:@","];
     [tField setText:curentText];
     if ([self checkInput:tField.text]) {
         //[label setText:@"You changed me"];
@@ -235,7 +243,7 @@
     int i=wordNo;
     word = [[NSString alloc] init];
     NSArray *myArray2=[[NSArray alloc] init];
-    myArray2 = [NSArray arrayWithObjects:@"9,2,22,25,"@"17,26,6,2,",@"19,3,2,10,5,23,11,17,26,",@"1,5,11,20,2,17,",@"24,27,6,19,8,3,21,16,",@"10,19,25,20,5,23,17,26,",@"12,15,25,7,"@"17,26,6,2,",@"15,4,23,5,",@"8,20,3,",@"18,11,13,7,",@"10,14,20,2,11,26,",@"24,13,",@"7,18,15,10,25,2,",nil];
+    myArray2 = [NSArray arrayWithObjects:@"agerwr",@"gksdjf",@"eksjdak",@"aksfalsfhs",@"achojshfoer",@"mcnvnqoeti",@"ngwj",@"sdewq",@"kgjflskj",@"sdkadksad",@"dsada",@"dad",@"deklte",@"gqsynham",@"dasdq",@"thbne",@"bqwepz",@"mqutz",@"qlzubp",@"neujsxtu",@"lorst",@"retsam",@"deeps",@"hextgw",@"borzm",@"penta",@"agmotc",nil];
     word=[myArray2 objectAtIndex:i];
     label.text=word;
     [self recOutput:word];

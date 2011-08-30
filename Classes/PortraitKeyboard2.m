@@ -102,13 +102,20 @@
 {
 	TouchTestViewController *view3 = [[TouchTestViewController alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view3 animated:NO];
+    if ([myTimer isValid]) 
+    {
+        [myTimer invalidate];
+    }
 }
 
 -(IBAction) switchToNext
 {
 	LandscapeKeyboard1 *view4 = [[LandscapeKeyboard1 alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view4 animated:NO];
-    [myTimer invalidate];
+    if ([myTimer isValid]) 
+    {
+            [myTimer invalidate];
+    }
 	
 }
 
@@ -230,6 +237,7 @@
     label.text=word;
     [self recOutput:word];
     NSLog(@"%@",word);
+    [userInput addObject:@"new word"];
     
     return word;
 }
@@ -239,11 +247,12 @@
     int i=wordNo;
     word = [[NSString alloc] init];
     NSArray *myArray=[[NSArray alloc] init];
-    myArray = [NSArray arrayWithObjects:@"agerwr",@"gksdjf",@"eksjdak",@"aksfalsfhs",@"achojshfoer",@"mcnvnqoeti",@"ngwj",@"sdewq",@"kgjflskj",@"sdkadksad",@"dsada",@"dad",@"deklte",@"gqsynham",@"dasdq",@"thbne",@"bqwepz",@"mqutz",nil];
+    myArray = [NSArray arrayWithObjects:@"agerwr",@"gksdjf",@"eksjdak",@"aksfalsfhs",@"achojshfoer",@"mcnvnqoeti",@"ngwj",@"sdewq",@"kgjflskj",@"sdkadksad",@"dsada",@"dad",@"deklte",@"gqsynham",@"dasdq",@"thbne",@"bqwepz",@"mqutz",@"qlzubp",@"neujsxtu",@"lorst",@"retsam",@"deeps",@"hextgw",@"borzm",@"penta",@"agmotc",nil];
     word=[myArray objectAtIndex:i];
     label.text=word;
     [self recOutput:word];
     NSLog(@"%@",word);
+    [userInput addObject:@"new Word"];
     return word;
 }
 //
