@@ -301,9 +301,10 @@
     [self saveToFile];
     [recorder stopRecording];
     [[TTTouchCapturingWindow sharedWindow] removeViewForTouchPriority:self.view];
-    
-    
-    [myTimer invalidate];
+    if ([myTimer isValid]) 
+    {
+        [myTimer invalidate];
+    }
     NSLog(@"timer Stopped");
     NSLog(@"Timer e acum %i",myTimer);
 }
@@ -493,7 +494,10 @@
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    [myTimer invalidate];
+    if ([myTimer isValid]) 
+    {
+        [myTimer invalidate];
+    }
     [recorder release];
 
     // Release any retained subviews of the main view.

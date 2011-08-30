@@ -199,7 +199,7 @@
     label.text=word;
     [self recOutput:word];
     NSLog(@"%@",word);
-    
+    [userInput addObject:@"new word"];
     return word;
 }
 
@@ -248,6 +248,7 @@
     label.text=word;
     [self recOutput:word];
     NSLog(@"%@",word);
+    [userInput addObject:@"new word"];
     return word;
 }
 
@@ -300,7 +301,10 @@
     [[TTTouchCapturingWindow sharedWindow] removeViewForTouchPriority:self.view];
     
     
-    [myTimer2 invalidate];
+    if ([myTimer2 isValid]) 
+    {
+        [myTimer2 invalidate];
+    }
     NSLog(@"timer Stopped");
     NSLog(@"Timer e acum %i",myTimer2);
 }
@@ -414,6 +418,7 @@
     [self getWordZ];
     userInput=[[NSMutableArray alloc]init];
     output=[[NSMutableArray alloc]init];
+    NSLog(@"I passed this point");
     
 }
 
@@ -484,7 +489,10 @@
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    [myTimer2 invalidate];
+    if ([myTimer2 isValid]) 
+    {
+        [myTimer2 invalidate];
+    }
     [recorder release];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
