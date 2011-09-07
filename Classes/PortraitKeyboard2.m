@@ -112,11 +112,6 @@
 {
 	LandscapeKeyboard1 *view4 = [[LandscapeKeyboard1 alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view4 animated:NO];
-    if ([myTimer isValid]) 
-    {
-            [myTimer invalidate];
-    }
-	
 }
 
 -(void) startCountdown{
@@ -301,10 +296,7 @@
     [self saveToFile];
     [recorder stopRecording];
     [[TTTouchCapturingWindow sharedWindow] removeViewForTouchPriority:self.view];
-    if ([myTimer isValid]) 
-    {
         [myTimer invalidate];
-    }
     NSLog(@"timer Stopped");
     NSLog(@"Timer e acum %i",myTimer);
 }

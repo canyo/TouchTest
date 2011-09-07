@@ -107,11 +107,6 @@
 {
 	TouchTestViewController *view4 = [[TouchTestViewController alloc] initWithNibName:nil bundle:nil];
 	[self presentModalViewController:view4 animated:NO];
-    if ([myTimer2 isValid]) 
-    {
-        [myTimer2 invalidate];
-    }
-	
 	
 }
 
